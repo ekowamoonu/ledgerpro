@@ -1,0 +1,45 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans",sans-serif;
+	/*background-color:#f6f6f6;*/
+}
+
+body{
+	background-image:url(../images/7.jpg);
+	background-size: cover;
+}
+
+
+.login-form-container{
+	margin-top:0;
+}
+
+.login-form-container .form-control{
+	margin-bottom:8%;
+	border-radius: 0;
+	height:40px;
+	font-weight: bold;
+}
+
+.login-form-container .col-md-6{
+	background-color: rgba(255,255,255,0.9);
+	/*background-color: white;*/
+	padding:2%;
+}
+
+.login-form-container .btn-info{
+	border-radius:0;
+	padding:2%;
+	font-size: 18px;
+}
+
+/*header*/
+.header-container{
+	margin-top: 12%;
+}
+.header-container .col-md-6{
+	background-color:#00B16A;
+	color:white;
+	padding:5px;
+}

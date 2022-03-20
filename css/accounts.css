@@ -1,0 +1,87 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans",sans-serif;
+	background-color:#f6f6f6;
+}
+
+
+
+/*product boxes*/
+.product-box{
+	height:450px;
+	background-color:white;
+	width:100%;
+	margin-top: 3%;
+	padding:5%;
+	position: relative;
+}
+
+.product-box p{
+	font-size: 17px;
+	font-weight: bold;
+	color:black;
+}
+
+.product-box p span{
+	color:#5C97BF;
+}
+
+.details h4{
+	background-color:#00B16A;/*#049372;*/
+	color:white;
+	padding:10px;
+	margin: 0;
+	width:99%;
+}
+
+.details .col-md-4{
+	padding-left:0;
+}
+
+.col-md-9{
+	position: relative;
+}
+
+.overlay{
+	width:100%;
+	height:0;
+	overflow: hidden;
+	top:0;
+	position: absolute;
+	left:0;
+	background-color: #00B16A;
+	transition:all 0.3s ease;
+}
+
+.overlay .btn-default{
+	padding:4%;
+	border:1px solid transparent;
+	border-radius:0;
+	font-size: 19px;
+	margin-top:50%;
+
+}
+
+.overlay .btn-default:hover{
+	color:white;
+	background-color:#035232;
+	-webkit-transition:all 0.3s ease;
+	-moz-transition:all 0.3s ease;
+	-o-transition:all 0.3s ease;
+	-ms-transition:all 0.3s ease;
+	transition:all 0.3s ease;
+}
+
+.details a:hover{
+	text-decoration: none;
+}
+
+.product-box:hover .overlay{
+	cursor: pointer;
+	height:100%;
+}
+
+.img-responsive{
+	margin:0 auto;
+}

@@ -1,0 +1,81 @@
+/*navbar*/
+.navbar-inverse{
+	border-radius: 0;
+	background-color:#1E8BC3;
+	border:1px solid transparent;
+}
+
+.navbar-inverse .navbar-brand{
+	color:white;
+	font-size: 25px;
+}
+
+.navbar-inverse .navbar-nav > li > a {
+    color: white;
+    font-size:19px;
+}
+
+.navbar-inverse .navbar-nav > li > a:hover {
+ background-color: #084176;
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:focus, .navbar-inverse .navbar-nav > .open > a:hover {
+    background-color: #084176;
+}
+
+.navbar-inverse .navbar-toggle {
+    border-color: transparent;
+}
+
+.navbar-inverse .navbar-toggle span {
+    border:2px solid white;
+}
+
+.btn-danger{
+	padding:10px;
+	border-radius:0;
+}
+
+/*sidebox*/
+.sidebox{
+	background-color:white;
+	height: auto;
+	min-height:650px;
+	width:100%;
+	padding:7%;
+}
+
+.sidebox ul li{
+	font-size: 20px;
+	/*margin-bottom: 2%;*/
+	padding:2%;
+	border-bottom:1px dashed #eee;
+}
+
+.sidebox ul li a{
+	margin:0;
+	color:grey;
+	transition:all 0.3s ease;
+}
+
+.sidebox ul li a:hover{
+	background-color: #1BBC9B;
+	color:white;
+    padding-left: 20%;
+}
+
+.sidebox ul li:hover{cursor: pointer;}
+
+.list h4{
+	background-color:#00B16A;
+	color:white;
+	padding:3%;
+	margin: 0;
+}
+
+/*tour codes*/
+.popover-title{
+	background-color: #95A5A6;
+	color:white;
+	font-size: 18px;
+}

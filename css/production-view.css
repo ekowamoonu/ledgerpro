@@ -1,0 +1,56 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans",sans-serif;
+	background-color:#f6f6f6;
+}
+
+
+
+/*product boxes*/
+.product-box{
+	height:400px;
+	background-color:white;
+	width:100%;
+	margin-top: 3%;
+	padding:5%;
+	position: relative;
+}
+
+.product-box p{
+	font-size: 17px;
+	font-weight: bold;
+}
+
+.product-box p span{
+	color:#5C97BF;
+}
+
+.details h4{
+	background-color:#00B16A;/*#049372;*/
+	color:white;
+	padding:10px;
+	margin: 0;
+	width:99%;
+}
+
+.details .col-md-4{
+	padding-left:0;
+}
+
+.col-md-9{
+	position: relative;
+}
+
+.details a:hover{
+	text-decoration: none;
+}
+
+.product-box:hover .overlay{
+	cursor: pointer;
+	height:100%;
+}
+
+.img-responsive{
+	margin:0 auto;
+}

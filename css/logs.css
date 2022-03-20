@@ -1,0 +1,67 @@
+html,body{
+	margin:0;
+	padding:0;
+	font-family: "Open Sans",sans-serif;
+	background-color:#f6f6f6;
+}
+
+
+
+.details h4{
+	background-color:#00B16A;/*#049372;*/
+	color:white;
+	padding:14px;
+	margin: 0;
+}
+
+.details h3:hover{
+	cursor:pointer;
+	color:#00B16A;
+}
+.details .row  blockquote{
+  background-color: #eee;
+}
+
+.details .col-md-4{
+	padding-left:0;
+}
+
+
+
+
+.img-responsive{
+	margin:0 auto;
+}
+
+/*filter form*/
+.filter-details h5{
+	background-color:#eee;/*#049372;*/
+	color:black;
+	padding:14px;
+}
+
+.filter-details{
+		margin-top: 2%;
+}
+
+.filter-form{
+	margin-top: 0;
+	padding:0;
+}
+.filter-form .form-control{
+	border-radius: 0;
+	height:40px;
+	font-weight: bold;
+}
+
+
+.filter-form .btn-info{
+	border-radius:0;
+	padding:2%;
+	font-size: 18px;
+	width:40%;
+	font-weight: bold;
+}
+
+
+/*order form**/
